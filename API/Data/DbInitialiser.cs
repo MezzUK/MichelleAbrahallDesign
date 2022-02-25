@@ -16,59 +16,59 @@ namespace API.Data
             {
                 new Project
                 {
-                    Name = "Project1",
-                    Description = "Project1 description",
-                    ImageUrl = "/images/projects/project1.png",
-                    Category = "Category1"
+                    Name = "Church",
+                    Description = "Church Illustration",
+                    ImageUrl = "/images/projects/01 Church illustration.jpg",
+                    Category = "Illustration"
                 },
                 new Project
                 {
-                    Name = "Project2",
-                    Description = "Project2 description",
-                    ImageUrl = "/images/projects/project2.png",
-                    Category = "Category2"
+                    Name = "Wedding Invite",
+                    Description = "Wedding Invite Illustration",
+                    ImageUrl = "/images/projects/02 Wedding invite illustration.jpg",
+                    Category = "Illustration"
                 },
                 new Project
                 {
-                    Name = "Project3",
-                    Description = "Project3 description",
-                    ImageUrl = "/images/projects/project3.png",
-                    Category = "Category3"
+                    Name = "Zero Waste Shop Mural",
+                    Description = "Zero Waste Shop Mural",
+                    ImageUrl = "/images/projects/03 Zero waste shop mural.jpg",
+                    Category = "Mural"
                 },
                 new Project
                 {
-                    Name = "Project4",
-                    Description = "Project4 description",
-                    ImageUrl = "/images/projects/project4.png",
-                    Category = "Category4"
+                    Name = "Modern Monogram Logo",
+                    Description = "Modern Monogram Logo",
+                    ImageUrl = "/images/projects/04 Modern monogram logo.jpg",
+                    Category = "Branding"
                 },
                 new Project
                 {
-                    Name = "Project5",
-                    Description = "Project5 description",
-                    ImageUrl = "/images/projects/project5.png",
-                    Category = "Category5"
+                    Name = "Illustrated Book Covers",
+                    Description = "Illustrated Book Covers",
+                    ImageUrl = "/images/projects/05 Illustrated book covers.jpg",
+                    Category = "Illustration"
                 },
                 new Project
                 {
-                    Name = "Project6",
-                    Description = "Project6 description",
-                    ImageUrl = "/images/projects/project6.png",
-                    Category = "Category6"
+                    Name = "Better with a Biscuit Logo",
+                    Description = "Better with a Biscuit Logo",
+                    ImageUrl = "/images/projects/06 Better with a Biscuit logo.png",
+                    Category = "Branding"
                 },
                 new Project
                 {
-                    Name = "Project7",
-                    Description = "Project7 description",
-                    ImageUrl = "/images/projects/project7.png",
-                    Category = "Category7"
+                    Name = "Yoga Studio Window Mural",
+                    Description = "Yoga Studio Window Mural",
+                    ImageUrl = "/images/projects/07 Yoga window mural.jpg",
+                    Category = "Mural"
                 },
                 new Project
                 {
-                    Name = "Project8",
-                    Description = "Project8 description",
-                    ImageUrl = "/images/projects/project8.png",
-                    Category = "Category8"
+                    Name = "Drummer Character Illustration",
+                    Description = "Drummer Character Illustration",
+                    ImageUrl = "/images/projects/08 Drummer character illustration.png",
+                    Category = "Illustration"
                 }
             };
 
