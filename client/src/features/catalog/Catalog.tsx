@@ -1,5 +1,6 @@
-import { Avatar, Button, List, ListItem, ListItemAvatar, ListItemText } from "@mui/material";
+import { Button } from "@mui/material";
 import { Project } from "../../app/models/project";
+import ProjectList from "./ProjectList";
 
 interface Props {
     projects: Project[];
@@ -10,18 +11,7 @@ export default function Catalog({projects, addProject}: Props)
 {
     return (
         <>
-            <List>
-                {projects.map((project) => (
-                    <ListItem key={project.id}>
-                        <ListItemAvatar>
-                            <Avatar src={project.imageUrl} />
-                        </ListItemAvatar>
-                        <ListItemText>
-                            {project.name} - {project.description}
-                        </ListItemText>
-                    </ListItem>
-                ))}
-            </List>
+            <ProjectList projects={projects} />
             <Button variant='contained' onClick={addProject}>Add project</Button>
         </>
     )

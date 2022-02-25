@@ -1,7 +1,8 @@
-import { Typography } from "@mui/material";
+import { Container, CssBaseline } from "@mui/material";
 import { useEffect, useState } from "react";
 import Catalog from "../../features/catalog/Catalog";
 import { Project } from "../models/project";
+import Header from "./Header";
 
 function App() {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -26,8 +27,11 @@ function App() {
 
   return (
     <>
-      <Typography variant='h1'>Michelle Abrahall Design</Typography>
-      <Catalog projects={projects} addProject={addProject} />
+      <CssBaseline />
+      <Header />
+      <Container>
+        <Catalog projects={projects} addProject={addProject} />
+      </Container>
     </>
   );
 }
