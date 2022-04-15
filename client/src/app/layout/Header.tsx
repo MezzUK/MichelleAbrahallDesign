@@ -1,4 +1,4 @@
-import { AppBar, Box, List, ListItem, Switch, Toolbar, Typography } from "@mui/material";
+import { AppBar, Box, capitalize, List, ListItem, Switch, Toolbar, Typography } from "@mui/material";
 import { NavLink } from "react-router-dom";
 
 interface Props{
@@ -7,18 +7,18 @@ interface Props{
 }
 
 const leftLinks = [
-    {title: 'portfolio', path: '/catalog'},
-    {title: 'shop', path: '/shop'}
+    {title: 'Portfolio', path: '/catalog'},
+    {title: 'Shop', path: '/shop'}
 ]
 
 const rightLinks = [
-    {title: 'about', path: '/about'},
-    {title: 'contact', path: '/contact'}
+    {title: 'About', path: '/about'},
+    {title: 'Contact', path: '/contact'}
 ]
 
 const navStyles = {
-    color: 'inherit', 
-    typography: 'h6',
+    color: '#008000', 
+    typography: 'h4',
     '&:hover': {
         color: 'grey.700'
     },
@@ -41,7 +41,7 @@ export default function Header({darkMode, handleThemeChange}: Props) {
                                 key={path}
                                 sx={navStyles}
                             >
-                                {title.toUpperCase()}
+                                {title}
                             </ListItem>
                         ))}
                     </List>
@@ -60,7 +60,7 @@ export default function Header({darkMode, handleThemeChange}: Props) {
                                 key={path}
                                 sx={navStyles}
                             >
-                                {title.toUpperCase()}
+                                {title}
                             </ListItem>
                         ))}
                     </List>

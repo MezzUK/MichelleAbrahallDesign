@@ -16,15 +16,15 @@ namespace API.Data
             {
                 new Project
                 {
-                    Name = "Church",
-                    Description = "Church Illustration",
+                    Name = "Northampton Church",
+                    Description = "Edward Knight estate agents have offices in Northampton and Rugby and commissioned a set of illustrations of landmark buildings in the area for their new website. This bespoke digital illustration in their brand colours of black and yellow depicts Northampton Church and is part of a set of 4. After the project was complete, Terry from Edward Knight kindly left me this review on Google: \"Could not recommend Michelle highly enough, her work is flawless and imaginative. She is always on hand to help and has met all deadlines for our agency - thanks so much Michelle\"",
                     ImageUrl = "/images/projects/01 Church illustration.jpg",
                     Category = "Illustration"
                 },
                 new Project
                 {
-                    Name = "Wedding Invite",
-                    Description = "Wedding Invite Illustration",
+                    Name = "Personal Commision - Wedding Invite",
+                    Description = "My clients wanted a vintage cartoon style wedding invitation, with themselves recreated as cartoon characters. This was a fun project, and the challenge was to show the personality of the bride and groom in the stylised caricatures.",
                     ImageUrl = "/images/projects/02 Wedding invite illustration.jpg",
                     Category = "Illustration"
                 },

@@ -1,13 +1,10 @@
 import { Grid, Typography } from "@mui/material";
 
-export default function Intro() {
+export default function Testimonials() {
     return (
         <>
-        <Grid container direction="row" justifyContent="center" alignItems="center" spacing={3}>
-            <Grid item xs={8}>
-            <img src='images/Michelle_Abrahall_Header.jpg' width='100%'></img>
-            </Grid>
-            <Grid item xs={4}>
+        <Grid container direction="row" justifyContent="center" alignItems="center" color="white" bgcolor="#E9007D">
+           <Grid item xs={6}>
                 <Typography sx={{textAlign: 'center'}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio nulla quisquam enim distinctio quibusdam tenetur sint, tempore veniam corrupti expedita rerum excepturi ad et? Sed quia ut harum consequuntur ipsum.</Typography>
             </Grid>
         </Grid>

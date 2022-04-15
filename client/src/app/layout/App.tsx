@@ -14,6 +14,12 @@ function App() {
   const [darkMode, setdarkMode] = useState(false);
   const paletteType = darkMode ? 'dark' : 'light';
   const theme = createTheme({
+    typography: {
+      fontFamily: [
+        'Maiden Orange', 
+        'cursive'
+      ].join(','),
+    },
     palette: {
       mode: paletteType,
       background: {
