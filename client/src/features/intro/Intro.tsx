@@ -7,8 +7,11 @@ export default function Intro() {
             <Grid item xs={8}>
             <img src='images/Michelle_Abrahall_Header.jpg' width='100%'></img>
             </Grid>
-            <Grid item xs={4}>
-                <Typography sx={{textAlign: 'center'}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio nulla quisquam enim distinctio quibusdam tenetur sint, tempore veniam corrupti expedita rerum excepturi ad et? Sed quia ut harum consequuntur ipsum.</Typography>
+            <Grid item xs={3}>
+                <Typography variant='subtitle1' sx={{textAlign: 'center', fontFamily: 'Roboto, san-serif', fontWeight: 'bold', color: '#E6266F'}}>
+                    Michelle Abrahall is a freelance illustrator, lettering and mural artist based in Leamington Spa, Warwickshire. 
+                    Known for her clean, colourful and uplifting illustrations, she works with clients to produce engaging designs for websites, print and branding.
+                </Typography>
             </Grid>
         </Grid>
         </>
