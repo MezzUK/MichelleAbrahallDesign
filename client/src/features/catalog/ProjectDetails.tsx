@@ -31,9 +31,9 @@ export default function ProjectDetails() {
                 
                 <Typography variant='h5'>What</Typography>
                 <Divider sx={{mb: 2}}></Divider>
-                <Typography variant='body1'>{project.description}</Typography>
+                <Typography sx={{fontFamily: 'Roboto, sans-serif'}} variant='body1'>{project.description}</Typography>
                 <Box sx={{ m: 2 }} />
-
+                
                 <Typography variant='h5'>Why</Typography>
                 <Divider sx={{mb: 2}}></Divider>
             </Grid>

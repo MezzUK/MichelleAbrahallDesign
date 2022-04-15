@@ -9,7 +9,7 @@ interface Props {
 export default function ProjectList({projects}: Props)
 {
     return (
-        <Grid container spacing={4}>
+        <Grid container spacing={4} sx={{p: '1rem 0rem'}}>
             {projects.map((project) => (
                 <Grid item xs={3} key={project.id}>
                     <ProjectCard project={project} />

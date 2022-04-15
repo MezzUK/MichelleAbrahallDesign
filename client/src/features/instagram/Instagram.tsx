@@ -1,23 +1,22 @@
 import { Box, Grid, Link, Typography } from "@mui/material";
 import Catalog from "../catalog/Catalog";
 
-(function(){
-    var i,e,d=document,s="script";
-    i=d.createElement("script");
-    i.async=true;
-    i.charset="UTF-8";
-    i.src="https://cdn.curator.io/published/dd60f528-ea95-4e9e-b06e-d7167eacea9d.js";
-    e=d.getElementsByTagName(s)[0];
-    if(e.parentNode){
-        e.parentNode.insertBefore(i, e);
-    }
-    })();
-
 export default function InstagramFeed() {
+    (function(){
+        var i,e,d=document,s="script";
+        i=d.createElement("script");
+        i.async=true;
+        i.charset="UTF-8";
+        i.src="https://cdn.curator.io/published/dd60f528-ea95-4e9e-b06e-d7167eacea9d.js";
+        e=d.getElementsByTagName(s)[0];
+        if(e.parentNode){
+            e.parentNode.insertBefore(i, e);
+        }
+        })();
     return (
         <>
             <Grid container direction="column" sx={{backgroundColor: 'green'}} justifyContent="center" alignItems="center">
-                <Grid item xs={8}>                
+                <Grid item xs={8} sx={{p: '1rem 0rem'}}>                
                     <Link variant='h6' color='white' target="_blank" rel="noreferrer" href='https://www.instagram.com/mish_abs' underline='none'>Instagram @mish_abs</Link>
                 </Grid>
                 <Grid container direction="row">

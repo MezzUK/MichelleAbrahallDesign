@@ -32,7 +32,7 @@ export default function Footer() {
                     <Link variant='h6' color='white' href='/catalog' underline='none'>Murals</Link>
                 </Grid>
                 <Grid item>
-                    <Link variant='h6' color='white' href='/catalog' underline='none'>Graphic Design</Link>
+                    <Link variant='h6' color='white' href='/catalog' underline='none'>Logos</Link>
                 </Grid>
                 <Grid item>
                     <Link variant='h6' color='white' href='/contact' underline='none'>Contact</Link>

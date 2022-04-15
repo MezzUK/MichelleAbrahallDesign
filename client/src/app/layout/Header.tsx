@@ -1,4 +1,5 @@
-import { AppBar, Box, capitalize, List, ListItem, Switch, Toolbar, Typography } from "@mui/material";
+import { AppBar, Box, capitalize, List, ListItem, Switch, Toolbar, Typography, useScrollTrigger } from "@mui/material";
+import React from "react";
 import { NavLink } from "react-router-dom";
 
 interface Props{
